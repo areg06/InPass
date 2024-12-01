@@ -1,1 +1,1 @@
-web: gunicorn InPass_main.wsgi:application --log-file -
+web: gunicorn InPass_main.wsgi --log-file -
